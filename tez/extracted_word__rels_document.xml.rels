@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">
+  <Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles" Target="styles.xml" />
+  <Relationship Id="rId2" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/fontTable" Target="fontTable.xml" />
+  <Relationship Id="rId3" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/theme" Target="theme/theme1.xml" />
+  <Relationship Id="rId4" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/settings" Target="settings.xml" />
+  <Relationship Id="rId5" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/footer" Target="footer1.xml" />
+  <Relationship Id="rId6" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image" Target="media/image1.jpeg" />
+  <Relationship Id="rId7" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image" Target="media/image2.jpeg" />
+  <Relationship Id="rId8" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image" Target="media/image3.jpeg" />
+  <Relationship Id="rId9" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image" Target="media/image4.jpeg" />
+  <Relationship Id="rId10" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image" Target="media/image5.png" />
+  <Relationship Id="rId11" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image" Target="media/image6.jpeg" />
+  <Relationship Id="rId12" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink" Target="https://arxiv.org/abs/1411.4028" TargetMode="External" />
+  <Relationship Id="rId13" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink" Target="https://en.wikipedia.org/wiki/Adiabatic_quantum_computation" TargetMode="External" />
+  <Relationship Id="rId14" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink" Target="https://www.sciencedirect.com/science/article/abs/pii/S0065327617300424" TargetMode="External" />
+  <Relationship Id="rId15" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink" Target="https://www.cs.princeton.edu/courses/archive/fall04/cos576/papers/deutsch85.pdf" TargetMode="External" />
+  <Relationship Id="rId16" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink" Target="https://en.wikipedia.org/wiki/Deutsch%E2%80%93Jozsa_algorithm" TargetMode="External" />
+  <Relationship Id="rId17" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink" Target="https://s2.smu.edu/~mitch/class/5395/papers/feynman-quantum-1981.pdf" TargetMode="External" />
+  <Relationship Id="rId18" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink" Target="https://arstechnica.com/information-technology/2015/12/google-nasa-our-quantum-computer-is-100-million-times-faster-than-normal-pc/" TargetMode="External" />
+  <Relationship Id="rId19" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink" Target="https://www.sciencenews.org/article/google-quantum-supremacy-claim-controversy-top-science-stories-2019-yir" TargetMode="External" />
+  <Relationship Id="rId20" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink" Target="https://www.ibm.com/quantum/blog/127-qubit-quantum-processor-eagle" TargetMode="External" />
+  <Relationship Id="rId21" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink" Target="https://medium.com/ieee-amasya/kuantum-bilgisayar-nedir-4b70258f5055" TargetMode="External" />
+  <Relationship Id="rId22" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink" Target="https://bilgem.tubitak.gov.tr/kuantum-teknolojileri/" TargetMode="External" />
+  <Relationship Id="rId23" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink" Target="https://www.forbes.com/sites/gilpress/2023/01/31/new-funding-for-quantum-computing-accelerates-worldwide/" TargetMode="External" />
+  <Relationship Id="rId24" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink" Target="https://www.sciencedaily.com/releases/2001/12/011220081620.htm" TargetMode="External" />
+  <Relationship Id="rId25" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink" Target="https://en.wikipedia.org/wiki/Simon%27s_problem" TargetMode="External" />
+  <Relationship Id="rId26" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink" Target="https://en.wikipedia.org/wiki/Shor%27s_algorithm" TargetMode="External" />
+  <Relationship Id="rId27" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink" Target="https://medium.com/yogsblog/superposition-of-qubits-2773b85bed8c" TargetMode="External" />
+  <Relationship Id="rId28" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink" Target="https://tubitak.gov.tr/tr/duyuru/uygulamali-kuantum-teknolojileri-konulu-eureka-network-cagrisi-acildi" TargetMode="External" />
+  <Relationship Id="rId29" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink" Target="https://en.wikipedia.org/wiki/Variational_quantum_eigensolver" TargetMode="External" />
+  <Relationship Id="rId30" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink" Target="https://shiftdelete.net/yerli-ve-milli-kuantum-bilgisayar-gelistirilecek" TargetMode="External" />
+  <Relationship Id="rId31" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink" Target="https://qturkey.org/" TargetMode="External" />
+  <Relationship Id="rId32" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink" Target="https://news.universite-paris-saclay.fr/en/news/quantum-ambitions-positioning-france-cutting-edge-technology" TargetMode="External" />
+  <Relationship Id="rId33" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink" Target="https://www.researchgate.net/publication/344971320_Quantum_Computing_A_Taxonomy_Systematic_Review_and_Future_Directions#pf7" TargetMode="External" />
+  <Relationship Id="rId34" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink" Target="https://en.wikipedia.org/wiki/Quantum_Fourier_transform" TargetMode="External" />
+  <Relationship Id="rId35" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink" Target="https://en.wikipedia.org/wiki/Quantum_logic_gate" TargetMode="External" />
+  <Relationship Id="rId36" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/numbering" Target="numbering.xml" />
+</Relationships>

@@ -1,0 +1,63 @@
+1.Metadata Nedir?
+
+2.Metadata'nın Tarihçesi
+
+3.Metadata içerebilecek dosya türleri
+
+	-Resim
+	-Video
+	-Ses
+	-Docx veya PDF belgeleri
+	-Zip dosyaları
+	-pptx sunumları
+
+4.Bu dosya türlerinin genel yapısı
+
+	-Bit dizilişi
+	-Başlangıç,bitiş blokları
+	-Metadata saklayabilecek olan data blokları
+	-Sakladıkları metadataların niteliği(Resimde daha çok hassas bilgi taşıyor vs. gibi)
+
+5.Bu dosyaların her birinden metadataya nasıl,ulaşılıyor nerde ne saklıyor?
+
+6.Metadatanın gizlilikteki önemi?
+	-Metadata'yı Kötü niyetli kişiler elde ederse ne yapabilir?
+	-Metadata analizi ile kötü niyetli kişilerin davranışları nasıl tespit edilebilir?(Adli tıp,forensics vb.)
+
+7.Benim tasarladığım uygulama ne işe yarıyor?
+
+	-Metadata görüntüleyebiliyor
+	-Metadata silebiliyoruz
+	-Olan metadatayı manipüle edip gizliliğimizi arttırabiliyoruz.
+
+8.Uygulamanın en öne çıkan özellikleri nelerdir ve diğer metadata temizleme servislerinden farkı nedir?
+
+	-Öncelikle her veri işleyen serviste olduğu gibi işlenen verinin gizli tutulması ve kötü niyetli kişilerden saklanması gerekiyor.Çoğu online
+	metadata silme servisi,verdiğimiz dosyayı kendi server'larında tutup işlem yapıyor.Daha sonra silindiğini belirtseler bile o dosya bir kere 
+	indexlendikten sonra silinse de gizliliğimizi ihlal etmiş oluyoruz.Bu sebeple benim uygulamam tamamen lokal yani işlem yapılan cihazın dışına  	çıkmadan,internete yüklenmeden ve bir başkasıyla paylaşılmadan işlendiği için bu konudaki gizlilik şüphelerini tamamen elemiş oluyor.
+	
+	-2. olarak en kritik metadata türlerini saklayan JPEG,jpg,mp4,mp3 ve en önemlisi bir çok dosyanın tek bir arşive sıkıştırılması ile elde edilen
+	zip dosyalarında bulunur.Benim tasarladığım uygulama bu dosyalardaki konum,poz,cihaz,işlemci,anakart id,ssd id gibi çok eşsiz ve özel bilgileri
+	görüntüleyip silme ve manipüle etme işlevine sahip. Ayrıca birçok uygulamada olmayan hem zip dosyasını hem de içerisindeki dosyaları ayrı ayrı 
+	işleyerek her dosyanın metadatası silindikten veya manipüle edildikten sonra tekrar zip haline getirip o zip dosyasının da metadatasını işledikten
+	sonra temiz dosyayı sunma özelliği mevcut.
+	
+	-3. olarak arayüz basit ve tamamen kullanıcı dostu.Piyasada bulunan exif tool gibi araçları kullanmak için en azından terminal kullanmaya aşina
+	olmanız gerekiyor.Ki bu yeteneğe sahip insanlar da oldukça azınlık olduğu için gizlilik gibi önemli bir konuyu sadece terminal kullanmayı bilen
+	kullanıcılar için değil son kullanıcıya kadar indirgemek de bu uygulamanın en önemli başarılarından birisi.
+	
+	-4. olarak neredeyse tüm metadata toolları web sitesi veya yukarda belirttiğimiz gibi terminal üzerinden yani çoğunlukla masaüstü kullanıcıları 
+	için tasarlanmıştır fakat masaüstü sistemlere ulaşım mobil cihazlardan daha zordur.Bu uygulama bu işlemi basit bir mobil cihazdan yapabilmektedir
+	ki en çok kullanıcıya sahip cihazlar da bilindiği üzere mobil cihazlardır.Kısaca telefonu olan herkes uygulamamı kullanarak basit bir
+	şekilde masaüstü cihazlara mecbur kalmadan gizliliğini sağlayabilir.
+
+	-5.Ayrıca piyasadaki popüler yazılımlar sadece masaüstü ortamda derlenebilecek şekilde tasarlanmıştır ve bir çoğu mobil işlemcilerde çalışamaz
+	benim tasarladığım yazılım ise sektörde olmayan bir şeyi yaparak mobil cihazlarda da bu işlemin yapılabileceğini gösterecek potansiyeldedir.
+
+
+
+
+https://www.ibm.com/think/topics/metadata
+https://www.avast.com/c-what-is-metadata
+https://www.dataversity.net/articles/a-brief-history-of-metadata/
+https://en.wikipedia.org/wiki/Metadata --(yalnızca sanal ve proje ile alakalı olan metadata açıklamaları ve bilgilerini al)
